@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+:root{
+    --main-padding: 15px;
+    --lightgreen: #B8E7E1;
+    --darkgreen: #0C6358;
+    --border: 3px solid #000;
+    --border-radius: 5px;
+    --font-size: x-large;
+}
+
+
+body{
+    margin: 20px;
+    background-color: var(--lightgreen);
+    color: var(--darkgreen);
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: var(--font-size);
+    line-height: 1.2;
+}
+
+form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid #000; */
+}
+
+header{
+    font-size: xx-large;
+    text-align: center;
+    padding: 15px;
+    width: 50%;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: var(--main-padding);
+    width: 30%;
+    margin-top: 5px;
+}
+
+label{
+    /* padding-bottom: 5px; */
+}
+
+label, small{
+
+}
+
+input{
+    border: var(--border);
+    border-radius: var(--border-radius);
+    /* background-color: #ECECEC; */
+    padding: 7.5px;
+    /* width: 50%; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    margin: 3px 0px;
+}
+
+small{
+    color: red;
+}
+
+button{
+    cursor: pointer;
+    margin: auto;
+    padding: 15px;
+    border: 3px solid #000;
+    border-radius: var(--border-radius);
+    width: 250px;
+    color: #B8E7E1;
+    background-color: #0C6358;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: var(--font-size);
+}
+
+
+hr{
+    height: 5px;
+    width: 52%;
+    background-color: #000;
+}
+
+small{
+    font-size: small;
+    padding: 5px;
+}
+
+.box.error input{
+    border-color: #FF0000;
+}
+
+.box.success input{
+    border-color: #3FA600;
+}
+
